@@ -18,10 +18,9 @@
         <script src="https://unpkg.com/htmx.org@2.0.0" integrity="sha384-wS5l5IKJBvK6sPTKa2WZ1js3d947pvWXbPJ1OmWfEuxLgeHcEbjUUA5i9V5ZkpCw" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/htmx.org@1.9.12/dist/ext/multi-swap.js"></script>
 
-        <div class="d-flex flex-column bg-body p-0 vh-100 overflow-auto">
-            <div class="d-flex row flex-nowrap g-0 p-0">
-                {% include navbar.html %}
-            </div>
+        <div class="bg-body p-0 vh-100 overflow-auto">
+            {% include navbar.html %}
+            {% include introduction.html %}
             {% include papers.html %}
             {% include academic_background.html %}
         </div>

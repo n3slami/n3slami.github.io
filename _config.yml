@@ -21,13 +21,17 @@
 title: Navid Eslami's Homepage
 email: navideslami@cs.toronto.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I’m Navid, a PhD. student at the University of Toronto. I design data
-  structures tailored to database systems, with a focus on randomized and
-  sketching data structures.
+  I'm a PhD. student at the University of Toronto. I'm a member of the ORCA
+  Lab, where I'm fortunate enough to be supervised by Prof. Niv Dayan. I design
+  data structures tailored to database systems, with a focus on randomized and
+  sketching data structures. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  n3slami
+
+linkedin: https://www.linkedin.com/in/navid-eslami-14036823a/
+scholar: https://scholar.google.ca/citations?user=Z06BhrUAAAAJ&hl=en
 
 # Build settings
 theme: minima

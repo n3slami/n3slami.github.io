@@ -1,7 +1,42 @@
+.hero-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/hero_bg.jpg);
+    background-position: center;
+}
+
 .section-header {
     font-family: Ubuntu Mono;
 }
 
+.face-img-overlay-wrap {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+}
+
+.face-img-overlay-wrap img { /* <= optional, for responsiveness */
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    max-width: min(100%, 50vw);
+    height: auto;
+    border-radius: 55%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.face-img-overlay-wrap svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    max-width: min(110%, 60vw);
+    min-width: min(110%, 60vw);
+    height: auto;
+    transform: translate(-43%, -43%);
+}
+
+/*
 .education-entry-odd:before {
     content: "";
     display: inline-block;
@@ -25,3 +60,4 @@
     top: 0%;
     right: -2.85%;
 }
+*/
