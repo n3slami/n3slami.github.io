@@ -18,7 +18,7 @@
                 </svg>
             </div>
             <div class="col-sm-12 col-lg-8">
-                <h1 id="site-welcome" class="display-4 p-4 mx-4 text-center text-lg-start section-header text-light">Hi there! I'm Navid</h1>
+                <h1 id="site-welcome" class="display-4 py-4 mx-4 text-center text-lg-start section-header text-light">Hi there! I'm Navid</h1>
                 <p id="site-description" class="fs-5 px-4 mx-4 text-center text-lg-start text-light">
                 {{ site.description }}
                 <br>
@@ -26,7 +26,7 @@
                 My research interests include:
                 <br>
                 {% for interest in site.data.research_interests %}
-                <span class="ms-0 ms-lg-4 badge rounded-pill text-bg-success">{{ interest  }}</span>
+                <span class="m-1 ms-lg-4 badge rounded-pill text-bg-success" style="max-width: 50vw; display: inline-block; overflow-wrap: break-word; white-space: normal;">{{ interest  }}</span>
                 <br>
                 {% endfor %}
                 </p>
