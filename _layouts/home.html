@@ -18,13 +18,14 @@
         <script src="https://unpkg.com/htmx.org@2.0.0" integrity="sha384-wS5l5IKJBvK6sPTKa2WZ1js3d947pvWXbPJ1OmWfEuxLgeHcEbjUUA5i9V5ZkpCw" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/htmx.org@1.9.12/dist/ext/multi-swap.js"></script>
 
-        <div class="bg-body p-0 vh-100 overflow-auto">
-            {% include navbar.html %}
+        {% include navbar.html %}
+        <div class="bg-body p-0 vh-100 overflow-auto" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
             {% include introduction.html %}
             {% include papers.html %}
             {% include academic_background.html %}
             {% include teaching_experience.html %}
             {% include trivia.html %}
+            {% include contact.html %}
         </div>
 
         <script src="/assets/js/anime.min.js"></script>
