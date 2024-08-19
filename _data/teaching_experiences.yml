@@ -1,0 +1,63 @@
+-
+  role: TA
+  course: "CSC443/CSC2234: Database System Technology"
+  university: University of Toronto
+  professor: Prof. Niv Dayan
+  start: Sep 2024
+  end: Present
+-
+  role: Tutorial TA
+  course: "CSC263H1F: Data Structures and Analysis"
+  university: University of Toronto
+  professor: Prof. Sam Toueg
+  start: Sep 2024
+  end: Present
+-
+  role: Tutorial TA
+  course: "CSC263H1F: Data Structures and Analysis"
+  university: University of Toronto
+  professor: Prof. Bahar Aameri
+  start: Jan 2024
+  end: May 2024
+-
+  role: Tutorial TA
+  course: "CSC263H1F: Data Structures and Analysis"
+  university: University of Toronto
+  professor: Prof. Sam Toueg
+  start: Sep 2023
+  end: Dec 2023
+-
+  role: Practical Assignment Manager
+  course: Data Structures and Algorithms
+  university: Sharif University of Technology
+  professor: Prof. Mahdi Safarnejad-Boroujeni
+  start: Sep 2022
+  end: Jan 2023
+-
+  role: Problem and Test Setter
+  course: Competitive Programming
+  university: Aalto University
+  professor: Prof. Jukka Suomela
+  start: Jul 2022
+  end: Sep 2023
+-
+  role: Practical Assignment Designer
+  course: Data Structures and Algorithms
+  university: Sharif University of Technology
+  professor: Prof. Mahdi Safarnejad-Boroujeni
+  start: Sep 2021
+  end: Mar 2022
+-
+  role: Prepared Video Material
+  course: Data Structures and Algorithms
+  university: Sharif University of Technology
+  professor: Prof. Masoud Seddighin
+  start: Sep 2021
+  end: ""
+-
+  role: Practical Assignment Designer
+  course: Fundamentals of Programming
+  university: Sharif University of Technology
+  professor: Prof. Fakoori
+  start: Oct 2020
+  end: Jan 2021

@@ -1,5 +1,6 @@
 -
-  date: June 2029
+  start: Sep 2023
+  end: Jun 2029
   level: PhD
   degree: Computer Science (Computer Systems and Networks Group)
   university: University of Toronto
@@ -9,7 +10,8 @@
   img: /assets/img/bahen.jpg
   misc: []
 -
-  date: June 2023
+  start: Sep 2019
+  end: Jun 2023
   level: BSc
   degree: Computer Engineering
   university: Sharif University of Technology
@@ -22,3 +24,14 @@
     - "Class Rank: 2nd"
     - ACM-ICPC December 2020 West Asia Regionals Silver Medalist
     - ACM-ICPC December 2019 West Asia Regionals Gold Medalist
+-
+  start: Jul 2022
+  end: Sep 2022
+  level: Summer Internship
+  degree: Theory of Distributed Computing
+  university: Aalto University
+  city: Espoo
+  country: Finland
+  supervisor: Prof. Jukka Suomela, Prof. Jara Uitto
+  img: /assets/img/aalto.jpg
+  misc: []
