@@ -1,0 +1,43 @@
+-
+  title: "Memento Filter: A Fast, Dynamic, and Robust Range Filter"
+  authors:
+    - N. Eslami
+    - N. Dayan
+  conference: SIGMOD (2025)
+  url: https://arxiv.org/abs/2408.05625v2
+  code: ""
+-
+  title: Rethinking RAFT for Efficient Optical Flow
+  authors:
+    - N. Eslami
+    - F. Arefi
+    - A.M. Mansourian
+    - S. Kasaei
+  conference: MVIP (2024)
+  url: https://ieeexplore.ieee.org/abstract/document/10491183
+  code: https://github.com/n3slami/Ef-RAFT
+-
+  title: "Blacksmith: Fast Adversarial Training of Vision Transformers via a Mixture of Single-step and Multi-step Methods"
+  authors:
+    - M. Salmani
+    - A. Dehghanpour Farashah
+    - M. Azizmalayeri
+    - M. Amiri
+    - N. Eslami
+    - M.T. Manzuri
+    - M.H. Rohban
+  conference: Arxiv (2023)
+  url: https://arxiv.org/abs/2401.00833
+  code: https://github.com/mahdisalmani/Blacksmith
+-
+  title: Locality in Online, Dynamic, Sequential, and Distributed Graph Algorithms
+  authors:
+    - A. Akbari
+    - N. Eslami
+    - H. Lievonen
+    - D. Melnyk
+    - J. Särkijärvi
+    - J. Suomela
+  conference: ICALP (2023)
+  url: https://arxiv.org/abs/2310.18975
+  code: ""

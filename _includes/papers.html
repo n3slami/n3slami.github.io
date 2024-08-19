@@ -1,0 +1,54 @@
+<div class="col-auto col-md-2">
+</div>
+<div class="col-md-8 bg-dark-subtle">
+    <div class="container">
+        <h1 class="display-3 px-4 mx-4 border-bottom text-center section-header">Selected Publications</h1>
+        <div class="row g-2 row-cols-auto" data-masonry='{"itemSelector": ".paper-card", "gutter": 10, "fitWidth": true}'
+                style="margin: 0 auto;">
+            {% for paper in site.data.papers %}
+            <div class="card paper-card" style="width: 18rem;">
+                <div class="card-body" style="transform: rotate(0);">
+                    <h5 class="card-title mb-4">{{ paper.title }}</h5>
+                    <h6 class="card-subtitle">
+                    {% for author in paper.authors %}
+                    {% if author == "N. Eslami" %}
+                    <span class="fst-italic" style="color: var(--bs-emphasis-color)">{{ author }}</span>
+                    {% else %}
+                    {{ author }}
+                    {% endif %}
+                    &nbsp;
+                    {% endfor %}
+                    </h6>
+                    <a class="link-underline-opacity-0 stretched-link" href="{{ paper.url }}" target="_blank"></a>
+                </div>
+                <div class="card-body border-top">
+                    <div class="row">
+                        <div class="col-auto me-auto">
+                            <span class="badge rounded-pill text-bg-primary">{{ paper.conference }}</span>
+                        </div>
+                        <div class="col-auto">
+                            <a class="link-underline-opacity-0" href="{{ paper.url }}" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        {% if paper.code != "" %}
+                        <div class="col-auto">
+                            <a class="link-underline-opacity-0" href="{{ paper.code }}" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                                    <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+                                </svg>
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="col-auto col-md-2">
+</div>
