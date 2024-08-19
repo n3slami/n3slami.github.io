@@ -1,0 +1,24 @@
+-
+  date: June 2029
+  level: PhD
+  degree: Computer Science (Computer Systems and Networks Group)
+  university: University of Toronto
+  city: Toronto
+  country: Canada
+  supervisor: Prof. Niv Dayan
+  img: /assets/img/bahen.jpg
+  misc: []
+-
+  date: June 2023
+  level: BSc
+  degree: Computer Engineering
+  university: Sharif University of Technology
+  city: Tehran
+  country: Iran
+  supervisor: ""
+  img: /assets/img/sharif.jpg
+  misc:
+    - "GPA: 19.82/20.00"
+    - "Class Rank: 2nd"
+    - ACM-ICPC December 2020 West Asia Regionals Silver Medalist
+    - ACM-ICPC December 2019 West Asia Regionals Gold Medalist

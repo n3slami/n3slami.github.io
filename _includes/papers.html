@@ -1,23 +1,24 @@
-<div class="col-auto col-md-2">
+<div class="d-flex row flex-nowrap g-0 p-0">
+<div class="col-auto col-md-2 bg-body-secondary">
 </div>
-<div class="col-md-8 bg-dark-subtle">
-    <div class="container">
-        <h1 class="display-3 px-4 mx-4 border-bottom text-center section-header">Selected Publications</h1>
+<div class="col-md-8 bg-body-secondary">
+    <div class="container py-4">
+        <h1 class="display-4 px-4 mx-4 border-bottom section-header">Selected Publications</h1>
         <div class="row g-2 row-cols-auto" data-masonry='{"itemSelector": ".paper-card", "gutter": 10, "fitWidth": true}'
-                style="margin: 0 auto;">
+            style="margin: 0 auto;">
             {% for paper in site.data.papers %}
             <div class="card paper-card" style="width: 18rem;">
                 <div class="card-body" style="transform: rotate(0);">
                     <h5 class="card-title mb-4">{{ paper.title }}</h5>
                     <h6 class="card-subtitle">
-                    {% for author in paper.authors %}
-                    {% if author == "N. Eslami" %}
-                    <span class="fst-italic" style="color: var(--bs-emphasis-color)">{{ author }}</span>
-                    {% else %}
-                    {{ author }}
-                    {% endif %}
-                    &nbsp;
-                    {% endfor %}
+                        {% for author in paper.authors %}
+                        {% if author == "N. Eslami" %}
+                        <span class="fst-italic" style="color: var(--bs-emphasis-color)">{{ author }}</span>
+                        {% else %}
+                        {{ author }}
+                        {% endif %}
+                        &nbsp;
+                        {% endfor %}
                     </h6>
                     <a class="link-underline-opacity-0 stretched-link" href="{{ paper.url }}" target="_blank"></a>
                 </div>
@@ -50,5 +51,6 @@
         </div>
     </div>
 </div>
-<div class="col-auto col-md-2">
+<div class="col-auto col-md-2 bg-body-secondary">
+</div>
 </div>

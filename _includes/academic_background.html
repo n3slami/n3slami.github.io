@@ -1,0 +1,41 @@
+<div class="d-flex row flex-nowrap g-0 p-0">
+<div class="col-auto col-md-2">
+</div>
+<div class="col-md-8">
+    <div class="container my-4">
+        <h1 class="display-4 px-4 mx-4 border-bottom section-header">Academic Background</h1>
+        <div class="m-4">
+            <div class="row m-4 justify-content-center border-start border-end education-container">
+                {% for entry in site.data.academic_background %}
+                {% assign parity = forloop.index | modulo: 2 %}
+                <div class="row p-4 {% if parity == 1 %} education-entry-odd justify-content-start {% else %} education-entry-even justify-content-end {% endif %}">
+                    <div class="card w-75 p-0 shadow">
+                        <img src="{{ entry.img }}" width="600" height="300" class="card-img-top" alt="{{ entry.university }}" style="object-fit: cover">
+                        <div class="card-body">
+                            <h5 class="card-title"> <span class="badge text-bg-info"> {{ entry.level }} </span> {{ entry.degree }} </h5>
+                            <h5 class="fw-bolder card-title"> {{ entry.university }}, {{ entry.city }}, {{ entry.country }} </h5>
+                            {% if entry.supervisor != "" %}
+                                <h6 class="card-title"> Supervised by {{ entry.supervisor }} </h6>
+                            {% endif %}
+                            <h6 class="card-subtitle text-body-secondary"> {{ entry.date }} </h6>
+                            {% assign misc_len = entry.misc | size %}
+                            {% if misc_len > 0 %}
+                                <hr>
+                                <p class="fw-bold card-text">Notable Achievements</p>
+                                <ul>
+                                {% for achievement in entry.misc %}
+                                <li style="list-style-type: none;">{{ achievement }}</li>
+                                {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-auto col-md-2">
+</div>
+</div>
