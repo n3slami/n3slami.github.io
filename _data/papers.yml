@@ -14,7 +14,7 @@
     - A.M. Mansourian
     - S. Kasaei
   conference: MVIP (2024)
-  url: https://ieeexplore.ieee.org/abstract/document/10491183
+  url: http://dx.doi.org/10.1109/MVIP62238.2024.10491183
   code: https://github.com/n3slami/Ef-RAFT
 -
   title: "Blacksmith: Fast Adversarial Training of Vision Transformers via a Mixture of Single-step and Multi-step Methods"
@@ -39,5 +39,5 @@
     - J. Särkijärvi
     - J. Suomela
   conference: ICALP (2023)
-  url: https://arxiv.org/abs/2109.06593
+  url: https://doi.org/10.4230/LIPIcs.ICALP.2023.10
   code: ""
