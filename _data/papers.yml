@@ -1,4 +1,13 @@
 -
+  title: "Diva: Dynamic Range Filter for Var-Length Keys and Queries"
+  authors:
+    - N. Eslami
+    - I. O. Bercea
+    - N. Dayan
+  conference: VLDB (2025)
+  url: https://6c7de8b5-df3d-4a03-945a-9846af236553.usrfiles.com/ugd/6c7de8_6ae9f30d12a740d1b131c0e863ae1a04.pdf
+  code: https://github.com/n3slami/Diva
+-
   title: "Memento Filter: A Fast, Dynamic, and Robust Range Filter"
   authors:
     - N. Eslami
