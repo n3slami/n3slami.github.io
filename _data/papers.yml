@@ -4,7 +4,7 @@
     - N. Eslami
     - I. O. Bercea
     - N. Dayan
-  conference: VLDB (2025)
+  conference: VLDB 2025
   awards:
     - Best Research Paper
   url: https://vldb.org/pvldb/volumes/18/paper/Diva%3A%20Dynamic%20Range%20Filter%20for%20Var-Length%20Keys%20and%20Queries
@@ -14,7 +14,7 @@
   authors:
     - N. Eslami
     - N. Dayan
-  conference: SIGMOD (2025)
+  conference: SIGMOD 2025
   url: https://doi.org/10.1145/3698820
   code: https://github.com/n3slami/Memento_Filter
 -
@@ -24,7 +24,7 @@
     - F. Arefi
     - A.M. Mansourian
     - S. Kasaei
-  conference: MVIP (2024)
+  conference: MVIP 2024
   url: http://dx.doi.org/10.1109/MVIP62238.2024.10491183
   code: https://github.com/n3slami/Ef-RAFT
 -
@@ -37,7 +37,7 @@
     - N. Eslami
     - M.T. Manzuri
     - M.H. Rohban
-  conference: Arxiv (2023)
+  conference: Arxiv 2023
   url: https://doi.org/10.48550/ARXIV.2310.18975
   code: https://github.com/mahdisalmani/Blacksmith
 -
@@ -49,6 +49,6 @@
     - D. Melnyk
     - J. Särkijärvi
     - J. Suomela
-  conference: ICALP (2023)
+  conference: ICALP 2023
   url: https://doi.org/10.4230/LIPIcs.ICALP.2023.10
   code: ""
