@@ -5,7 +5,9 @@
     - I. O. Bercea
     - N. Dayan
   conference: VLDB (2025)
-  url: https://6c7de8b5-df3d-4a03-945a-9846af236553.usrfiles.com/ugd/6c7de8_6ae9f30d12a740d1b131c0e863ae1a04.pdf
+  awards:
+    - Best Research Paper
+  url: https://vldb.org/pvldb/volumes/18/paper/Diva%3A%20Dynamic%20Range%20Filter%20for%20Var-Length%20Keys%20and%20Queries
   code: https://github.com/n3slami/Diva
 -
   title: "Memento Filter: A Fast, Dynamic, and Robust Range Filter"
@@ -13,7 +15,7 @@
     - N. Eslami
     - N. Dayan
   conference: SIGMOD (2025)
-  url: https://arxiv.org/abs/2408.05625v3
+  url: https://doi.org/10.1145/3698820
   code: https://github.com/n3slami/Memento_Filter
 -
   title: Rethinking RAFT for Efficient Optical Flow
