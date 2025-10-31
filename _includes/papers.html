@@ -26,11 +26,9 @@
                     <div class="row">
                         <div class="col-auto me-auto">
                             <span class="badge rounded-pill text-bg-primary">{{ paper.conference }}</span>
-                            {% if "awards" in paper %}
                             {% for award in paper.awards %}
                             <span class="badge rounded-pill text-bg-success">{{ award }}</span>
                             {% endfor %}
-                            {% endif %}
                         </div>
                         <div class="col-auto">
                             <a class="link-underline-opacity-0" href="{{ paper.url }}" target="_blank">
