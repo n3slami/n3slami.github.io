@@ -1,5 +1,12 @@
 -
-  role: TA
+  role: Head TA
+  course: "CSC2525: Research Topics in Database Management"
+  university: University of Toronto
+  professor: Prof. Niv Dayan
+  start: Jan 2026
+  end: May 2026
+-
+  role: Tutorial TA
   course: "CSC443/CSC2234: Database System Technology"
   university: University of Toronto
   professor: Prof. Niv Dayan
