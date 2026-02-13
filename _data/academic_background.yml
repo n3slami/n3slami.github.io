@@ -8,7 +8,9 @@
   country: Canada
   supervisor: Prof. Niv Dayan
   img: /assets/img/bahen.jpg
-  misc: []
+  misc: 
+    - Jane Street Graduate Research Fellowship 2026
+    - MongoDB PhD Fellowship 2026
 -
   start: April 2025
   end: May 2025
@@ -19,9 +21,7 @@
   country: Denmark
   supervisor: Prof. Rasmus Pagh, Prof. Ioana O. Bercea
   img: /assets/img/barc_old.jpg
-  misc: 
-    - Jane Street Graduate Research Fellowship 2026
-    - MongoDB PhD Fellowship 2026
+  misc: []
 -
   start: Sep 2019
   end: Jun 2023
