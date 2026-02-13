@@ -1,4 +1,15 @@
 -
+  title: "Aeris Filter: A Strongly and Monotonically Adaptive Range Filter"
+  authors:
+    - Y. Chesetti
+    - N. Eslami
+    - H. Zhang
+    - N. Dayan
+    - P. Pandey
+  conference: VLDB 2025
+  url: https://prashantpandey.github.io/uploads/sigmod26_aeris.pdf
+  code: https://github.com/saltsystemslab/AerisFilter
+-
   title: "Diva: Dynamic Range Filter for Var-Length Keys and Queries"
   authors:
     - N. Eslami
