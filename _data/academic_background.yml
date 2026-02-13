@@ -10,6 +10,17 @@
   img: /assets/img/bahen.jpg
   misc: []
 -
+  start: April 2025
+  end: May 2025
+  level: Visiting Researcher
+  degree: Space-Efficient and Approximate Data Structures
+  university: Basic Algorithms Research Copenhagen (BARC)
+  city: Copenhagen
+  country: Denmark
+  supervisor: Prof. Rasmus Pagh, Prof. Ioana O. Bercea
+  img: /assets/img/barc_old.jpg
+  misc: []
+-
   start: Sep 2019
   end: Jun 2023
   level: BSc
