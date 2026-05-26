@@ -1,3 +1,4 @@
+
 <div id="selectPublicationsSection" class="row justify-content-center g-0 p-0 m-0 bg-body-secondary shadow">
 <div class="col-auto col-lg-2">
 </div>
@@ -35,6 +36,7 @@
                                 </svg>
                             </a>
                         </div>
+                        {% if paper.code and paper.code != "" %}
                         <div class="col-auto">
                             <a class="link-underline-opacity-0" href="{{ paper.code }}" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
@@ -42,14 +44,13 @@
                                 </svg>
                             </a>
                         </div>
+                        {% endif %}
                         {% for award in paper.awards %}
                         <div class="w-100"></div>
                         <div class="col-auto me-auto">
                             <span class="badge rounded-pill text-bg-success">{{ award }}</span>
                         </div>
                         {% endfor %}
-                        {% if paper.code != "" %}
-                        {% endif %}
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@
   awards:
     - Best Research Paper Honorable Mention
   url: https://arxiv.org/abs/2603.14190
-  code: git@github.com:n3slami/Sublime.git
+  code: https://github.com/n3slami/Sublime.git
 -
   title: "Zeno Filter: To Infinity in Tiny Steps"
   authors:
