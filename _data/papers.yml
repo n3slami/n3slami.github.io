@@ -10,6 +10,7 @@
     - Best Research Paper Honorable Mention
   url: https://arxiv.org/abs/2603.14190
   code: https://github.com/n3slami/Sublime.git
+  video: https://youtu.be/J8Y_vrQZ65c
 -
   title: "Zeno Filter: To Infinity in Tiny Steps"
   authors:
@@ -42,6 +43,7 @@
     -  <a href="https://dl.acm.org/doi/pdf/10.1145/3810900#page=52" style="color:white">SIGMOD 2026 Highlight</a> 
   url: https://vldb.org/pvldb/volumes/18/paper/Diva%3A%20Dynamic%20Range%20Filter%20for%20Var-Length%20Keys%20and%20Queries
   code: https://github.com/n3slami/Diva
+  video: https://youtu.be/Wyv7a-N71Pk
 -
   title: "Memento Filter: A Fast, Dynamic, and Robust Range Filter"
   authors:
@@ -62,6 +64,7 @@
     - Best Research Paper
   url: http://dx.doi.org/10.1109/MVIP62238.2024.10491183
   code: https://github.com/n3slami/Ef-RAFT
+  video: https://youtu.be/lmE4260bXoE
 -
   title: "Blacksmith: Fast Adversarial Training of Vision Transformers via a Mixture of Single-step and Multi-step Methods"
   authors:
