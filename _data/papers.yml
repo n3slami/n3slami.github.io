@@ -1,4 +1,21 @@
 -
+  title: "A Power Law in Logarithm's Clothing: On the Scalability of Graph-Based Vector Search"
+  authors:
+    - S. F. Maghrebi
+    - N. Eslami
+    - N. Dayan
+  conference: arXiv 2026
+  url: https://arxiv.org/abs/2609.02143
+-
+  title: "Diva++: Dynamic Range Filtering over Hard Workloads"
+  authors:
+    - N. Eslami
+    - I. O. Bercea
+    - N. Dayan
+  conference: arXiv 2026
+  url: https://arxiv.org/abs/2608.27616
+  code: https://github.com/n3slami/Diva
+-
   title: "Sublime: Sublinear Error & Space for Unbounded Skewed Streams"
   authors:
     - N. Eslami
@@ -77,7 +94,7 @@
     - N. Eslami
     - M.T. Manzuri
     - M.H. Rohban
-  conference: Arxiv 2023
+  conference: arXiv 2023
   url: https://doi.org/10.48550/ARXIV.2310.18975
   code: https://github.com/mahdisalmani/Blacksmith
 -
